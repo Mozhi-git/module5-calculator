@@ -44,7 +44,7 @@ def run_repl():
             except (ValueError, InvalidNumberError) as error:
                 print(f"Error: {error}")
 
-if __name__ == "__main__":
+if __name__ == "__main__":  # pragma: no cover
     run_repl()
 
             
